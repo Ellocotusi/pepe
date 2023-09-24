@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+
+
+.Header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+.Header-Logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+.Header-Logo:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+.Header-Logo h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.Header-Logo img {
+    width: 80px;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+.Header__Nav {
+    margin-right: 50px;
+}
+
+.Header__Nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 0px 10px;
+}
+
+.Header__Nav a:hover {
+    color: #05f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main {
+    background-color: #eee;
+    height: 10000px;
+}
+
+.Main__Article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.Main__Article-Yamaha {
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.Main
+
+
+
+
+.Main__Article-Yamaha-Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main__Article-Yamaha-Logo img{
+    width: 120px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.Main__Article-Yamaha-Logo h2 {
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Main__Article-Yamaha-Card {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.Card {
+    margin: 20px 20px;
+    background-color: #ccc;
+    box-shadow: 2px 5px 12px 0px black;
+    transition: all .3s;
+    text-decoration: none;
+    color: black;
+}
+
+
+.Card img {
+    width: 260px;
+
+}
+
+.Main__Article-Yamahar3-Card img{
+    width: 314px;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
