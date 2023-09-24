@@ -8,9 +8,10 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
 
 
 .Header {
-    background-color: #222;
+    background-color: #111;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px 0px;
 }
@@ -77,27 +78,41 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
 
 
 
+@media only screen and (max-width: 570px) {
+
+    .Header {
+        justify-content: center;
+    }
+
+    .Header-Logo {
+        margin-left: 0px;
+    }
+
+    .Header__Nav {
+        padding: 8px 0px;
+        margin-right: 0px;
+    }
 
 
-
-
-
-
-
-
+}
 
 
 
 
 .Main {
-    background-color: #eee;
-    height: 10000px;
+    background: url(Img/MotosM.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .Main__Article {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    background-color: #bbb4;
 }
 
 
@@ -106,10 +121,8 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
 .Main__Article-Yamaha {
     padding: 60px 0px;
     text-align: center;
+    width: 100%;
 }
-
-.Main
-
 
 
 
@@ -132,42 +145,153 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
 
 
 
-
-
-
-
-
-
-
-
-
 .Main__Article-Yamaha-Card {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
 
 
-.Card {
+
+
+
+
+
+
+.Card 
+{
     margin: 20px 20px;
     background-color: #ccc;
     box-shadow: 2px 5px 12px 0px black;
     transition: all .3s;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
+}
+
+
+.Card:hover {
+    transform: scale(1.05);
 }
 
 
 .Card img {
+    border-radius: 8px;
     width: 260px;
-
 }
 
 .Main__Article-Yamahar3-Card img{
     width: 314px;
 }
 
-.Card:hover {
-    transform: scale(1.05);
+
+.Main__Article-BmwS1000rr-Card img{
+    width: 300px;
 }
+
+
+.Main__Article-Benelli302s-Card img {
+    height: 200px;
+    object-fit: initial;
+    object-position: center;
+}
+
+.Main__Article-Benellitrk502-Card img {
+    height: 200px;
+    width: 300px;
+}
+
+.Main__Article-Benellitnt600i-Card img {
+    height: 200px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.Main__Article-Bmw {
+    padding: 100px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.Main__Article-Bmw-Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main__Article-Bmw-Logo img{
+    width: 120px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.Main__Article-Bmw-Logo h2 {
+    font-size: 45px;
+}
+
+
+
+
+
+.Main__Article-Bmw-Card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Main__Article-Benelli {
+    padding: 100px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.Main__Article-Benelli-Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main__Article-Benelli-Logo img{
+    width: 120px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.Main__Article-Benelli-Logo h2 {
+    font-size: 45px;
+}
+
+
+
+
+
+.Main__Article-Benelli-Card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
