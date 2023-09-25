@@ -99,7 +99,9 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
     }
 
 
+
 }
+
 
 
 
@@ -116,7 +118,6 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
 .Main-Inicio__Article-Portada {
     
     background: url(Img/PortadaBm.png);
-    background-position-y: -220px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -126,10 +127,6 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
     color: white;
 }
 
-.Main-Inicio__Article-Portada-Container {
-    background-color: #0009;
-    height: 650px;
-}
 
 .Main-Inicio__Article-Portada-Container h1 {
     padding-top: 202px;
